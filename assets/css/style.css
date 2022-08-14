@@ -1,0 +1,102 @@
+/* Font et Backgound */
+* {
+    font-family: 'Edu QLD Beginner', cursive;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 425px) {
+    body {
+        background-image: url(../Img/ToriRouge.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+
+    .main {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    h1 {
+        text-align: center;
+        background-color: rgb(0, 0, 0, 0.5);
+        border: 2px black solid;
+        border-radius: 20px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    #presentation {
+        width: 90%;
+        font-size: xx-large;
+        border: 2px black solid;
+        border-radius: 10px;
+        background-color: rgb(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #pictureOfMe {
+        border-radius: 10px;
+        margin: 20px;
+    }
+
+    #me {
+        text-align: center;
+    }
+
+    h2 {
+        font-size: xx-large;
+        text-align: center;
+        background-color: rgb(0, 0, 0, 0.5);
+        border: 2px black solid;
+        border-radius: 20px;
+        padding: 10px; 
+        margin: 10px;
+    }
+
+    #aptitudes {
+        width: 90%;
+        font-size: xx-large;
+        border: 2px black solid;
+        border-radius: 10px;
+        text-align: center;
+        background-color: rgb(0, 0, 0, 0.5);
+        margin: 10px;
+    }
+    
+    #skills {
+        width: 90%;
+        font-size: xx-large;
+        border: 2px black solid;
+        border-radius: 10px;
+        text-align: center;
+        background-color: rgb(0, 0, 0, 0.5);
+        margin: 10px;
+    }
+
+    #design {
+        width: 90%;
+        font-size: xx-large;
+        border: 2px black solid;
+        border-radius: 10px;
+        text-align: center;
+        background-color: rgb(0, 0, 0, 0.5);
+        margin: 10px;    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-image: url(../Img/sungjin-fuji-lion-bg-hd-2-0.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+}
