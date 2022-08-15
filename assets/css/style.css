@@ -1,10 +1,11 @@
-/* Font et Backgound */
 * {
     font-family: 'Edu QLD Beginner', cursive;
     color: whitesmoke;
     margin: 0;
     padding: 0;
 }
+
+/*---------- Version Mobile ----------*/
 
 @media screen and (max-width: 425px) {
     body {
@@ -25,12 +26,13 @@
         text-align: center;
         background-color: rgb(0, 0, 0, 0.5);
         border: 2px black solid;
-        border-radius: 20px;
+        border-radius: 10px;
         padding: 10px;
         margin: 10px;
     }
 
     #presentation {
+        text-align: center;
         width: 90%;
         font-size: xx-large;
         border: 2px black solid;
@@ -43,12 +45,8 @@
     }
 
     #pictureOfMe {
-        border-radius: 10px;
+        border-radius: 20px;
         margin: 20px;
-    }
-
-    #me {
-        text-align: center;
     }
 
     h2 {
@@ -56,9 +54,13 @@
         text-align: center;
         background-color: rgb(0, 0, 0, 0.5);
         border: 2px black solid;
-        border-radius: 20px;
-        padding: 10px; 
+        border-radius: 10px;
+        padding: 10px;
         margin: 10px;
+    }
+
+    h3 {
+        margin-bottom: 20px;
     }
 
     #aptitudes {
@@ -69,8 +71,9 @@
         text-align: center;
         background-color: rgb(0, 0, 0, 0.5);
         margin: 10px;
+        padding: 10px;
     }
-    
+
     #skills {
         width: 90%;
         font-size: xx-large;
@@ -79,6 +82,7 @@
         text-align: center;
         background-color: rgb(0, 0, 0, 0.5);
         margin: 10px;
+        padding: 10px;
     }
 
     #design {
@@ -88,8 +92,68 @@
         border-radius: 10px;
         text-align: center;
         background-color: rgb(0, 0, 0, 0.5);
-        margin: 10px;    }
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #diplome {
+        width: 90%;
+        font-size: xx-large;
+        border: 2px black solid;
+        border-radius: 10px;
+        text-align: center;
+        background-color: rgb(0, 0, 0, 0.5);
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #cap {
+        margin-top: 20px;
+    }
+
+    #proCareer {
+        width: 90%;
+        font-size: xx-large;
+        border: 2px black solid;
+        border-radius: 10px;
+        text-align: center;
+        background-color: rgb(0, 0, 0, 0.5);
+        margin: 10px;
+        padding: 10px;
+    }
+
+    h3 p {
+        font-size: small;
+    }
+
+    #contacts {
+        width: 90%;
+        font-size: xx-large;
+        border: 2px black solid;
+        border-radius: 10px;
+        text-align: center;
+        background-color: rgb(0, 0, 0, 0.5);
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #contacts h3 {
+        margin-top: 20px;
+    }
+
+    footer {
+        width: 90%;
+        font-size: xx-large;
+        border: 2px black solid;
+        border-radius: 10px;
+        text-align: center;
+        background-color: rgb(0, 0, 0, 0.5);
+        margin: 10px;
+        padding: 10px;
+    }
 }
+
+/*---------- Version Desktop ----------*/
 
 @media screen and (min-width: 1200px) {
     body {
