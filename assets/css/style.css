@@ -16,7 +16,7 @@
         background-position: center;
     }
 
-    /*---------- Container regroupant tout ----------*/
+    /*---------- Container principale ----------*/
 
     .main {
         display: flex;
@@ -50,7 +50,7 @@
         margin: 20px;
     }
 
-    #presentation {
+    #paragraphPres {
         text-align: center;
         width: 90%;
         font-size: xx-large;
@@ -91,7 +91,7 @@
         padding: 10px;
     }
 
-    #skills {
+    #development {
         width: 90%;
         font-size: xx-large;
         border: 2px black solid;
@@ -155,7 +155,7 @@
 
     /*---------- Début des contacts ----------*/
 
-    #contacts {
+    #contact {
         width: 90%;
         font-size: xx-large;
         border: 2px black solid;
@@ -166,7 +166,7 @@
         padding: 10px;
     }
 
-    #contacts h3 {
+    #contact h3 {
         margin-top: 20px;
     }
 
@@ -225,19 +225,24 @@
         text-align: center;
         border: 2px black solid;
         border-radius: 10px;
-        margin-top: 2%;
-        margin-bottom: 2%;
+        margin: 2%;
         padding: 1%;
     }
 
+    .presentation {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 2%;
+    }
+
     #picturePres {
-        width: 25%;
+        width: 20%;
         background-color: rgb(0, 0, 0, 0.5);
         border: 2px black solid;
         border-radius: 10px;
         padding: 2%;
-        margin-left: 5%;
-        margin-bottom: 2%;
     }
 
     #pictureOfMe {
@@ -246,55 +251,199 @@
         border-radius: 10px;
     }
 
-    #presentation {
+    #paragraphPres {
         width: 40%;
         font-size: xx-large;
+        text-align: center;
         background-color: rgb(0, 0, 0, 0.5);
         border: 2px black solid;
-        text-align: center;
         border-radius: 10px;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-bottom: 2%;
-        padding: 5%;
+        padding: 4%;
     }
 
     /*---------- Fin de la présentation ----------*/
 
     /*---------- Début des compétences ----------*/
 
-    h2 {
-        width: 70%;
+    #titleSkills {
+        width: 50%;
+        font-size: xx-large;
         background-color: rgb(0, 0, 0, 0.5);
         text-align: center;
         border: 2px black solid;
         border-radius: 10px;
-        margin-top: 2%;
-        margin-bottom: 2%;
+        margin: 2%;
         padding: 1%;
+    }
+
+    .skills {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 2%;
+    }
+
+    .skills h3 {
+        margin-bottom: 5%;
     }
 
     #aptitudes {
         width: 20%;
         text-align: center;
-        font-size: larger;
+        font-size: x-large;
         background-color: rgb(0, 0, 0, 0.5);
         border: 2px black solid;
         border-radius: 10px;
-        margin-left: 6%;
         padding: 1%;
     }
 
-    #skills {
+    #development {
         width: 20%;
         text-align: center;
-        font-size: larger;
+        font-size: x-large;
         background-color: rgb(0, 0, 0, 0.5);
         border: 2px black solid;
         border-radius: 10px;
-        margin-left: 6%;
         padding: 1%;
     }
 
-    #
+    #design {
+        width: 20%;
+        text-align: center;
+        font-size: x-large;
+        background-color: rgb(0, 0, 0, 0.5);
+        border: 2px black solid;
+        border-radius: 10px;
+        padding: 1%;
+    }
+
+    /*---------- Fin des compétences ----------*/
+
+    /*---------- Début des diplomes ----------*/
+
+    #titleDiplome {
+        width: 70%;
+        font-size: xx-large;
+        background-color: rgb(0, 0, 0, 0.5);
+        text-align: center;
+        border: 2px black solid;
+        border-radius: 10px;
+        margin-left: 14%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding: 1%;
+    }
+
+    .diplome {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .diplome h3 {
+        margin-bottom: 2%;
+    }
+    .diplome p {
+        margin-bottom: 2%;
+    }
+
+    #diplome {
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        font-size: x-large;
+        background-color: rgb(0, 0, 0, 0.5);
+        border: 2px black solid;
+        border-radius: 10px;
+        margin-left: 24%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        padding: 3%;
+    }
+
+    /*---------- Fin des diplomes ----------*/
+
+    /*---------- Début du parcour pro ----------*/
+
+    #titleProCareer {
+        width: 70%;
+        font-size: xx-large;
+        background-color: rgb(0, 0, 0, 0.5);
+        text-align: center;
+        border: 2px black solid;
+        border-radius: 10px;
+        margin-left: 14%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding: 1%;
+    }
+
+    .proCareer {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .proCareer p {
+        margin-bottom: 1%;
+    }
+
+    #novotel, #laManu {
+        font-size: medium;
+    }
+
+    #proCareer {
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        font-size: x-large;
+        background-color: rgb(0, 0, 0, 0.5);
+        border: 2px black solid;
+        border-radius: 10px;
+        margin-left: 24%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        padding: 1%;
+    }
+
+    /*---------- Fin du parcour pro ----------*/
+
+    /*---------- Début des contacts ----------*/
+
+    #titleContact {
+        width: 50%;
+        font-size: xx-large;
+        background-color: rgb(0, 0, 0, 0.5);
+        text-align: center;
+        border: 2px black solid;
+        border-radius: 10px;
+        margin-left: 24%;
+        margin-right: 24%;
+        padding: 1%;
+    }
+
+    .contact {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #contact {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        font-size: x-large;
+        background-color: rgb(0, 0, 0, 0.5);
+        border: 2px black solid;
+        border-radius: 10px;
+        padding: 1%;
+    }
+
+    /*---------- Fin des contacts ----------*/
+
+    /*---------- Footer ----------*/
+
+    
+
 }
