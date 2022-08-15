@@ -140,6 +140,16 @@
     #contacts h3 {
         margin-top: 20px;
     }
+    
+    #github {
+        position: relative;
+        left: -15px;
+    }
+
+    #linkedin {
+        position: relative;
+        left: -5px;
+    }    
 
     footer {
         width: 90%;
