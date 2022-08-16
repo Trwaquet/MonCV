@@ -170,6 +170,17 @@
         margin-top: 20px;
     }
 
+    #socialNetworks {
+        width: 90%;
+        font-size: xx-large;
+        border: 2px black solid;
+        border-radius: 10px;
+        text-align: center;
+        background-color: rgb(0, 0, 0, 0.5);
+        margin: 10px;
+        padding: 10px;
+    }
+
     #github {
         position: relative;
         left: -15px;
@@ -420,17 +431,25 @@
         border-radius: 10px;
         margin-left: 24%;
         margin-right: 24%;
+        margin-top: 2%;
+        margin-bottom: 3%;
         padding: 1%;
     }
 
     .contact {
         width: 100%;
+        height: 20%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .contact p {
+        margin-bottom: 3%;
     }
 
     #contact {
-        width: 100%;
+        width: 25%;
         height: 100%;
         text-align: center;
         font-size: x-large;
@@ -439,11 +458,43 @@
         border-radius: 10px;
         padding: 1%;
     }
+    
+    #contact h3 {
+        margin-top: 3%;
+        margin-bottom: 2%;
+    }
+
+    #socialNetworks {
+        width: 25%;
+        height: 100%;
+        text-align: center;
+        font-size: x-large;
+        background-color: rgb(0, 0, 0, 0.5);
+        border: 2px black solid;
+        border-radius: 10px;
+        padding: 2%;
+    }
+
+    #socialNetworks h3 {
+        margin-bottom: 8.7%;
+    }
 
     /*---------- Fin des contacts ----------*/
 
     /*---------- Footer ----------*/
 
+    footer {
+        width: 70%;
+        background-color: rgb(0, 0, 0, 0.5);
+        text-align: center;
+        font-size: x-large;
+        border: 2px black solid;
+        border-radius: 10px;
+        margin-top: 3%;
+        margin-left: 14%;
+        margin-bottom: 1%;
+        padding: 1%;
+    }
     
 
 }
