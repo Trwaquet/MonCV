@@ -479,6 +479,11 @@
         margin-bottom: 8.7%;
     }
 
+    #github {
+        position: relative;
+        left: -1%;
+    }
+
     /*---------- Fin des contacts ----------*/
 
     /*---------- Footer ----------*/
