@@ -46,6 +46,7 @@
     }
 
     #pictureOfMe {
+        width: 80%;
         border-radius: 10px;
         margin: 20px;
     }
@@ -228,6 +229,34 @@
         justify-content: space-evenly;
     }
 
+    /*---------- Animation ----------*/
+
+    h1 span {
+        animation: slideLeft 1.5s forwards;
+        opacity: 0;
+        transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    p span {
+        animation: slideLeft 1.5s forwards;
+        opacity: 0;
+        transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    @keyframes slideLeft {
+        from {
+            opacity: 0;
+            transform: translateX(200px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0%);
+        }
+    }
+
+    /*---------- Fin animation ----------*/
+
     /*---------- Début de la présentation ----------*/
 
     h1 {
@@ -239,6 +268,8 @@
         margin: 2%;
         padding: 1%;
     }
+
+
 
     .presentation {
         width: 100%;
@@ -355,6 +386,7 @@
     .diplome h3 {
         margin-bottom: 2%;
     }
+
     .diplome p {
         margin-bottom: 2%;
     }
@@ -400,7 +432,8 @@
         margin-bottom: 1%;
     }
 
-    #novotel, #laManu {
+    #novotel,
+    #laManu {
         font-size: medium;
     }
 
@@ -458,7 +491,7 @@
         border-radius: 10px;
         padding: 1%;
     }
-    
+
     #contact h3 {
         margin-top: 3%;
         margin-bottom: 2%;
@@ -500,6 +533,6 @@
         margin-bottom: 1%;
         padding: 1%;
     }
-    
+
 
 }
