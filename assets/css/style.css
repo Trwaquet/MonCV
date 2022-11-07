@@ -1,9 +1,36 @@
+@font-face {
+    font-family: 'Paragraph';
+    src: url(/assets/fonts/Ubuntu/Ubuntu-Light.ttf);
+}
+
 * {
-    font-family: 'Edu QLD Beginner', cursive;
+    font-family: 'Paragraph';
     color: whitesmoke;
     margin: 0;
     padding: 0;
 }
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #000000 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 3px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background-color: white;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
 
 /*---------- Version Mobile ----------*/
 
@@ -210,7 +237,7 @@
 
 /*---------- Version Desktop ----------*/
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
     body {
         background-image: url(../img/sungjin-fuji-lion-bg-hd-2-0.gif);
         background-repeat: no-repeat;
