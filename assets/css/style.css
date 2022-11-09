@@ -1,10 +1,10 @@
 @font-face {
-    font-family: 'Paragraph';
+    font-family: Paragraph;
     src: url(/assets/fonts/Ubuntu/Ubuntu-Light.ttf);
 }
 
 * {
-    font-family: 'Paragraph';
+    font-family: Paragraph;
     color: whitesmoke;
     margin: 0;
     padding: 0;
