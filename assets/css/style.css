@@ -10,27 +10,19 @@
     padding: 0;
 }
 
-/* ===== Scrollbar CSS ===== */
-  /* Firefox */
-  * {
-    scrollbar-width: auto;
-    scrollbar-color: #000000 #ffffff;
-  }
+::-webkit-scrollbar {
+    width: 12px;
+}
 
-  /* Chrome, Edge, and Safari */
-  *::-webkit-scrollbar {
-    width: 3px;
-  }
-
-  *::-webkit-scrollbar-track {
-    background-color: white;
-  }
-
-  *::-webkit-scrollbar-thumb {
-    background-color: black;
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
-    border: 1px solid black;
-  }
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
 
 /*---------- Version Mobile ----------*/
 
